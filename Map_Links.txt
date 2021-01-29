@@ -1,1 +1,2 @@
 https://play.workadventu.re/_/global/raw.githubusercontent.com/Hebelmap/hebelgymnasium/master/test.json
+https://play.workadventu.re/_/global/raw.githubusercontent.com/Hebelmap/hebelgymnasium/master/Klassenzimmer.json
