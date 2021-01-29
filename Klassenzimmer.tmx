@@ -138,7 +138,7 @@
  <tileset firstgid="703" name="boden" tilewidth="32" tileheight="32" tilecount="12" columns="4">
   <image source="Tilesets/boden.png" width="128" height="96"/>
  </tileset>
- <layer id="6" name="start" width="21" height="19">
+ <layer id="6" name="start" width="21" height="19" visible="0">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -146,7 +146,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -161,7 +161,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="3" name="Boden" width="21" height="19">
+ <layer id="3" name="Boden" width="21" height="19" visible="0">
   <data encoding="csv">
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
@@ -184,7 +184,7 @@
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,709,709,709,709,1,1
 </data>
  </layer>
- <layer id="4" name="Stühle" width="21" height="19">
+ <layer id="4" name="Stühle" width="21" height="19" visible="0">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -208,6 +208,9 @@
 </data>
  </layer>
  <layer id="5" name="Wände" width="21" height="19">
+  <properties>
+   <property name="collide" type="bool" value="true"/>
+  </properties>
   <data encoding="csv">
 2684355250,692,692,692,692,692,692,692,692,692,692,692,692,692,692,692,692,692,692,692,3221226162,
 2684355252,552,552,552,549,551,552,549,550,551,552,552,549,551,552,552,549,551,552,552,1610613428,
@@ -230,7 +233,7 @@
 568,568,568,568,568,568,568,568,568,568,568,568,568,568,568,586,587,588,589,568,568
 </data>
  </layer>
- <layer id="8" name="Säulen" width="21" height="19">
+ <layer id="8" name="Säulen" width="21" height="19" visible="0">
   <properties>
    <property name="collide" type="bool" value="true"/>
   </properties>
@@ -256,8 +259,8 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="2" name="floorLayer"/>
- <layer id="7" name="Tafel" width="21" height="19">
+ <objectgroup id="2" name="floorLayer" visible="0"/>
+ <layer id="7" name="Tafel" width="21" height="19" visible="0">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
