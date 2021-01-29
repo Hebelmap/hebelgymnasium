@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="19" height="13" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="1">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="19" height="13" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="1">
  <editorsettings>
   <export target="Klassenzimmer.json" format="json"/>
  </editorsettings>
@@ -9,8 +9,8 @@
  <tileset firstgid="2" name="5_Classroom_and_library_32x32" tilewidth="32" tileheight="32" tilecount="544" columns="16">
   <image source="Tilesets/5_Classroom_and_library_32x32.png" width="512" height="1088"/>
  </tileset>
- <tileset firstgid="546" name="wand" tilewidth="32" tileheight="32" tilecount="48" columns="8">
-  <image source="Tilesets/wand.png" width="256" height="192"/>
+ <tileset firstgid="546" name="wand" tilewidth="32" tileheight="32" tilecount="112" columns="8">
+  <image source="Tilesets/wand.png" width="256" height="448"/>
   <tile id="0">
    <properties>
     <property name="collides" type="bool" value="true"/>
@@ -132,7 +132,7 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="594" name="Tafelranz" tilewidth="32" tileheight="32" tilecount="5" columns="1">
+ <tileset firstgid="658" name="Tafelranz" tilewidth="32" tileheight="32" tilecount="5" columns="1">
   <image source="Tilesets/Tafelranz.png" width="32" height="160"/>
  </tileset>
  <layer id="6" name="start" width="19" height="13">
@@ -193,11 +193,11 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,594,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,595,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,596,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,597,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,598,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,658,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,659,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,660,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,661,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,662,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -209,6 +209,26 @@
 560,560,560,557,559,560,557,558,559,560,560,557,559,560,560,557,559,560,560,
 568,568,568,565,567,568,565,566,567,568,568,565,567,568,568,565,567,568,568,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="8" name="Säulen" width="19" height="13">
+  <properties>
+   <property name="collide" type="bool" value="true"/>
+  </properties>
+  <data encoding="csv">
+0,0,629,0,0,632,0,0,0,626,0,0,0,629,0,0,0,600,0,
+0,0,637,0,0,640,0,0,0,634,0,0,0,637,0,0,0,608,0,
+0,0,645,0,0,648,0,0,0,642,0,0,0,645,0,0,0,616,0,
+619,620,653,620,620,656,620,620,621,650,620,620,621,653,620,620,621,624,619,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
