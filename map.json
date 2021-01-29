@@ -55,7 +55,7 @@
                 {
                  "name":"exitSceneUrl",
                  "type":"string",
-                 "value":"..\/master\/test.json"
+                 "value":"..\/master\/test.json#pymmel"
                 }],
          "type":"tilelayer",
          "visible":true,
