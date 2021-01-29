@@ -1,0 +1,12 @@
+exitUrl
+openWebsite
+jitsiRoom
+startLayer
+floorLayer
+getBadge
+playAudio
+playAudioLoop
+exitSceneUrl
+collides
+
+http://de.battleship-game.org/
