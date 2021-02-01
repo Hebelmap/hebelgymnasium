@@ -697,12 +697,11 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <group id="18" name="notexit">
-  <layer id="14" name="exitreinrechts" width="21" height="19">
-   <properties>
-    <property name="startLayer" type="bool" value="true"/>
-   </properties>
-   <data encoding="csv">
+ <layer id="14" name="exitreinrechts" width="21" height="19">
+  <properties>
+   <property name="startLayer" type="bool" value="true"/>
+  </properties>
+  <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -723,12 +722,12 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
-  </layer>
-  <layer id="16" name="exitreinlinks" width="21" height="19">
-   <properties>
-    <property name="startLayer" type="bool" value="true"/>
-   </properties>
-   <data encoding="csv">
+ </layer>
+ <layer id="16" name="exitreinlinks" width="21" height="19">
+  <properties>
+   <property name="startLayer" type="bool" value="true"/>
+  </properties>
+  <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -749,12 +748,12 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
-  </layer>
-  <layer id="15" name="notexitrechts" width="21" height="19">
-   <properties>
-    <property name="exitUrl" value="../master/117.json#exitreinlinks"/>
-   </properties>
-   <data encoding="csv">
+ </layer>
+ <layer id="15" name="notexitrechts" width="21" height="19">
+  <properties>
+   <property name="exitUrl" value="../master/117.json#exitreinlinks"/>
+  </properties>
+  <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -775,12 +774,12 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
-  </layer>
-  <layer id="17" name="notexitlinks" width="21" height="19">
-   <properties>
-    <property name="exitUrl" value="../master/115.json#exitreinrechts"/>
-   </properties>
-   <data encoding="csv">
+ </layer>
+ <layer id="17" name="notexitlinks" width="21" height="19">
+  <properties>
+   <property name="exitUrl" value="../master/115.json#exitreinrechts"/>
+  </properties>
+  <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -801,8 +800,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
-  </layer>
- </group>
+ </layer>
  <layer id="6" name="start" width="21" height="19">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
