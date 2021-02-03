@@ -934,7 +934,7 @@
 568,0,0,0,0,0,0,0,0,0,0,0,0,0,0,586,612,613,589,0,568
 </data>
  </layer>
- <layer id="15" name="overplay" width="21" height="19" visible="0">
+ <layer id="15" name="overplay" width="21" height="19" locked="1">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
