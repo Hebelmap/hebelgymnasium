@@ -166,7 +166,7 @@
  </layer>
  <layer id="23" name="vertretungsplan" width="71" height="105">
   <properties>
-   <property name="openWebsite" value="https://www.hebelgymnasium.de/news-infos/vertretungsplan/"/>
+   <property name="openWebsite" value="https://play.workadventu.re/_/global/ketschamrhein.github.io/fmap/xzp4jkams.json"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
